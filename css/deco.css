@@ -1,0 +1,49 @@
+.deco {
+    text-align: center;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color: cyan;
+}
+
+body {
+    background-color: rgb(255, 151, 206);
+}
+
+h1 {
+    color: rgb(87, 21, 87);
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#high {
+    color: darkorchid;
+}
+
+#side {
+    margin-top:20%;
+    margin-left:20px;
+    font-style: italic ;
+    color: darkmagenta;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#pic  {
+    display: flex;
+    justify-content:center; 
+    max-width: 1000px;
+    margin: auto
+
+}
+#pic img {
+    width:50%;
+    margin-top:20px;
+}
