@@ -90,6 +90,11 @@ nav {
 }
 
 @media (max-width: 480px) {
+    #pic {
+        display: flex;
+        flex-direction: column;
+    }
+    
     body {
         font-size: 14px;
     }
