@@ -1,3 +1,4 @@
+
 .deco {
     text-align: center;
     font-family: cursive;
@@ -10,6 +11,8 @@ a {
 
 body {
     background-color: rgb(255, 151, 206);
+    padding: 0%;
+    margin: 0%;
 }
 
 h1 {
@@ -22,8 +25,15 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#high {
-    color: darkorchid;
+.high {
+    color: rgb(40, 5, 57);
+    margin-top:10% ;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    background-color: rgb(180, 126, 231);
+    padding: 20px;
+    margin-bottom: -10px;
 }
 
 #side {
@@ -40,6 +50,7 @@ nav {
     justify-content: center;
     max-width: 1000px;
     margin: auto;
+    text-align: justify;
 }
 
 #pic img {
