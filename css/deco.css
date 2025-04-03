@@ -90,11 +90,6 @@ nav {
 }
 
 @media (max-width: 480px) {
-    #pic {
-        display: flex;
-        flex-direction: column;
-    }
-    
     body {
         font-size: 14px;
     }
@@ -115,5 +110,15 @@ nav {
     nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Stack image and side text vertically on small screens */
+    #pic {
+        flex-direction: column; /* Stack the image vertically */
+        align-items: center;
+    }
+
+    #side {
+        margin-top: 10px; /* Add some space between the image and the text */
     }
 }
