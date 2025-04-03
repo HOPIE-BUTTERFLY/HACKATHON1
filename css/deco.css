@@ -18,9 +18,8 @@ h1 {
 
 nav {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 #high {
@@ -28,22 +27,88 @@ nav {
 }
 
 #side {
-    margin-top:20%;
-    margin-left:20px;
-    font-style: italic ;
+    margin-top: 20%;
+    margin-left: 20px;
+    font-style: italic;
     color: darkmagenta;
     font-weight: 600;
     font-size: 20px;
 }
 
-#pic  {
+#pic {
     display: flex;
-    justify-content:center; 
+    justify-content: center;
     max-width: 1000px;
-    margin: auto
-
+    margin: auto;
 }
+
 #pic img {
-    width:50%;
-    margin-top:20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    #pic img {
+        width: 60%; /* Reduce image size slightly on medium screens */
+    }
+
+    #side {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #pic img {
+        width: 80%; /* Increase the image size on smaller screens */
+    }
+
+    #side {
+        margin-top: 10%;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #side {
+        margin-top: 5%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    #pic img {
+        width: 90%; /* Make the image width almost full on mobile */
+    }
+
+    #side {
+        font-size: 14px;
+        margin-top: 5%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
